@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar CEP</title>
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <main class="container">
+        <div class="principal">
+            
+          <form action="">
+            <input class="inline" type="number" name="cep" id="cep" placeholder="somente números" autocomplete="off">
+            <button class="inline" id="buscarCep">Buscar CEP</button>
+          </form>
+    
+          <div id="dadosCep">
+            
+            <p data-cep></p>
+    
+            <h2>Logradouro</h2>
+            <p data-log></p>
+    
+            <h2>Bairro</h2>
+            <p data-bairro></p>
+    
+            <h2>Localidade</h2>
+            <p data-local></p>
+    
+            <h2>UF</h2>
+            <p data-uf></p>
+    
+            <h2>DDD</h2>
+            <p data-ddd></p>
+          </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
